@@ -1,0 +1,35 @@
+[project]
+name = "lucidpy"
+version = "0.1.0"
+description = "A simple python client for the Lucidchart Simple API"
+readme = "README.md"
+authors = [{ name = "Thomas Scott", email = "scotho3@scottho.me" }]
+license = { text = "MIT" }
+keywords = ["lucidchart", "lucid", "api", "cli", "python"]
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "pre-commit>=4.0.1",
+    "pydantic>=2.10.5",
+    "pytest-mock>=3.14.0",
+    "pytest>=8.3.4",
+    "rich>=13.9.4",
+    "toml>=0.10.2",
+    "typer>=0.15.1",
+]
+
+[project.urls]
+"Repository" = "https://github.com/scotho3/lucidpy"
+"Bug Tracker" = "https://github.com/scotho3/lucidpy/issues"
+
+[tool.ruff.format]
+skip-magic-trailing-comma = false
+
+[tool.bandit]
+exclude_dirs = ["tests"]
+tests = ["B201", "B301"]
+skips = ["B101", "B601"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

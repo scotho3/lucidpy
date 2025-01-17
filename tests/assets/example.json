@@ -1,0 +1,87 @@
+{
+  "pages": [
+    {
+      "id": "page1",
+      "lines": [
+        {
+          "endpoint1": {
+            "position": {
+              "x": 1,
+              "y": 1
+            },
+            "shapeId": "block0_0",
+            "style": "none",
+            "type": "shapeEndpoint"
+          },
+          "endpoint2": {
+            "position": {
+              "x": 1,
+              "y": 1
+            },
+            "shapeId": "block0_1",
+            "style": "none",
+            "type": "shapeEndpoint"
+          },
+          "id": "line1",
+          "lineType": "straight",
+          "stroke": {
+            "color": "#000000",
+            "style": "solid",
+            "width": 1
+          },
+          "text": [
+            {
+              "position": 0.5,
+              "side": "middle",
+              "text": "test"
+            }
+          ]
+        }
+      ],
+      "shapes": [
+        {
+          "boundingBox": {
+            "h": 50,
+            "w": 50,
+            "x": 0,
+            "y": 0
+          },
+          "id": "block0_0",
+          "style": {
+            "fill": {
+              "color": "#446070ff",
+              "type": "color"
+            },
+            "stroke": {
+              "width": 0
+            }
+          },
+          "text": "",
+          "type": "rectangle"
+        },
+        {
+          "boundingBox": {
+            "h": 50,
+            "w": 50,
+            "x": 0,
+            "y": 50
+          },
+          "id": "block0_1",
+          "style": {
+            "fill": {
+              "color": "#325a73ff",
+              "type": "color"
+            },
+            "stroke": {
+              "width": 0
+            }
+          },
+          "text": "",
+          "type": "rectangle"
+        }
+      ],
+      "title": "test-1"
+    }
+  ],
+  "version": 1
+}
